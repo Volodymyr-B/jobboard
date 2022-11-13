@@ -1,6 +1,4 @@
-# Visualizer of issues from GitHub repositories
-
-Job viewer application
+# Job viewer application
 
 ## Functionality
 
