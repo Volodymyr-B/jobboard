@@ -15,7 +15,7 @@ import { useJobContext } from "../context/contextHooks";
 const JobDeteiled: FC = () => {
   const { job } = useJobContext();
 
-  if (!job) return <Navigate to="/" />;
+  if (!job) return <Navigate to="/jobboard" />;
 
   return (
     <div className="m-auto max-w-[1258px] mt-14 text-primary">

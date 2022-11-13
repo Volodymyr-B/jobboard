@@ -12,8 +12,8 @@ function App() {
     <div className="overflow-hidden">
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<JobList />} />
-        <Route path="/:id" element={<JobDeteiled />} />
+        <Route path="/jobboard" element={<JobList />} />
+        <Route path="/jobboard/:id" element={<JobDeteiled />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

@@ -26,7 +26,7 @@ const JobList: FC = () => {
       <div className="bg-[#e6e9f2] flex-column gap-6 md:gap-12">
         <ul className="m-auto max-w-[1400px] pt-3 md:pt-7 mx-2">
           {currentItems.map((job) => (
-            <Link key={job.id} to={`/${job.id}`}>
+            <Link key={job.id} to={`/jobboard/${job.id}`}>
               <Card job={job} />
             </Link>
           ))}
