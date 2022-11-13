@@ -2,7 +2,11 @@
   "name": "jobboard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Volodymyr-B.github.io/jobboard",
+  "homepage": "/jobboard/",
+  "repository": {
+    "type": "git",
+    "url": "https://volodymyr-b.github.io/jobboard"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
